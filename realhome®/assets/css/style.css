@@ -1,0 +1,51 @@
+/* Custom Style */
+body {
+    overflow-x: hidden;
+}
+.offcanvas {
+    --bs-offcanvas-height: 50vh;
+}
+.scrollToTop {
+    padding: 10px;
+    color: #444;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 99;
+}
+.owl-item.active.center h5, .owl-item.active.center span {
+    color: #000;
+}
+@media screen and (max-width: 1023px) {
+    #myCarousel .carousel-item img {
+        height: auto !important;
+    }
+}
+.button-final{
+    width: 85px;
+    background-color: #1c1d1e;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+      
+}
+.button-final:hover {
+    background-color: #4d84e2;
+  }
+.button-final.transparent {
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
